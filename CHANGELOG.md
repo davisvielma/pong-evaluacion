@@ -1,6 +1,6 @@
-# Modificaciones al código del Pong
+#Modificaciones al código del Pong
 
-## IA para mover la pelota
+##IA para mover la pelota
 
 El bloque de código para la IA se encuentra en la función update_pong.
 
@@ -28,6 +28,6 @@ if(ball_hitbox.x1 >= pong->middle_line.x && pong->ball.vx > 0) {
     }
 }
 ```
-## Estructura Middle_Line
+##Estructura Middle_Line
 
 Se creo los respectivos archivos .h .c, donde definimos la estructura Middle_Line con sus respectivas funciones.
