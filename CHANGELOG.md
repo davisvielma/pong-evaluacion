@@ -2,7 +2,7 @@
 
 ## IA para mover la pelota
 
-El código de bloque para la IA se encuentra en la función update_pong.
+El bloque de código para la IA se encuentra en la función update_pong.
 
 1. Nos aseguramos que al colisionar la pelota con la paleta (player2) esta ultima se detenga. La linea de codigo se encuentra en la posición 188
 
@@ -30,4 +30,4 @@ if(ball_hitbox.x1 >= pong->middle_line.x && pong->ball.vx > 0) {
 ```
 ## Estructura Middle_Line
 
-Se creo los archivos .h .c, donde definimos la estructura Middle_Line con sus respectivas funciones.
+Se creo los respectivos archivos .h .c, donde definimos la estructura Middle_Line con sus respectivas funciones.
